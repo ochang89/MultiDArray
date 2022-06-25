@@ -1,6 +1,5 @@
 public class hw8 {
     public static void main(String[] args) {
-        // 12 students, 10 questions, 5 choices (A,B,C,D,E)
         char[] key = {'B','D','E','A','B','E','E','D','E','B'};
         char[][] students = {
                 {'A', 'D','B','A','B','E','A','D','E','B'},
@@ -26,15 +25,15 @@ public class hw8 {
 
         // for each of 12 students. i represents each student
         for(int i = 0; i < arr.length; i++){
-            // for each student's exams 10 questions. j represents each of 10 questions
+            // for each student's exam's 10 questions. j represents each of 10 questions
             for(int j = 0; j < arr[i].length; j++){
-                // for each exam's 10 questions, compare letters to key
+                // for each question, compare student answers to answer key
                 if(arr[i][j] != key[j]){
-                    // if current array's (row) letter doesn't match, don't add anything
+                    // if letter doesn't match, don't subtract anything
                     scores[i] -= 0;
                 }
                 else{
-                    // count number correct
+                    // count number correct, add 1
                     scores[i] += 1;
                 }
             }

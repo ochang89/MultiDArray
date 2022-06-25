@@ -11,7 +11,7 @@ public class MultiDArray1 {
                 // sum each arr (row)
                 sum += arr[row][col];
             }
-            // store current sum into placeholder arr1[row]
+            // add sum as element to arr1[row] at current row iteration
             arr1[row] = sum;
             System.out.println(arr1[row]);
             // reset sum to grab sums of other arrays

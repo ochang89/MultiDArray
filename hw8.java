@@ -24,7 +24,6 @@ public class hw8 {
         int count = 0;
         int[] scores = new int[12];
 
-        // compare each row of arr to 
         // for each of 12 students. i represents each student
         for(int i = 0; i < arr.length; i++){
             // for each student's exams 10 questions. j represents each of 10 questions

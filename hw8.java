@@ -29,7 +29,7 @@ public class hw8 {
             for(int j = 0; j < arr[i].length; j++){
                 // for each question, compare student answers to answer key
                 if(arr[i][j] != key[j]){
-                    // if letter doesn't match, don't subtract anything
+                    // for student i, keep track of score
                     scores[i] -= 0;
                 }
                 else{

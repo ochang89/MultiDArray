@@ -11,10 +11,10 @@ public class MultiDArray1 {
                 // sum each arr (row)
                 sum += arr[row][col];
             }
-            // add sum as element to arr1[row] at current row iteration
+            // when end of row is reached, add sum to arr1
             arr1[row] = sum;
             System.out.println(arr1[row]);
-            // reset sum to grab sums of other arrays
+            // reset sum to not increment all rows
             sum = 0;
         }
         // if all rows are the same sum, return true

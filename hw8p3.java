@@ -2,7 +2,7 @@ public class hw8p3 {
     public static int[] linearize(int[][] arr){
         int sumLength = 0;
 
-        // add all array lengths (row lengths) to get new array length
+        // add all array lengths (row lengths) to get new array length, sumLength
         for(int i = 0; i < arr.length; i++){
             sumLength += arr[i].length;
         }
